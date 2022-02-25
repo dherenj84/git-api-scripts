@@ -1,6 +1,6 @@
 # git-api-scripts
 
-Utility Functions to Interact with Git Rest and GraphQL API
+Utility Functions to Interact with Git Rest and GraphQL API. A very common need because of which I had to create this project was to list and delete stale branches.
 
 ### Available Scripts
 
