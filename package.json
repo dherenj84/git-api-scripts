@@ -1,0 +1,22 @@
+{
+  "name": "git-api-scripts",
+  "version": "1.0.0",
+  "description": "Utility Functions to Interact with Git Rest and GraphQL API",
+  "main": "main.js",
+  "scripts": {
+    "delete-stale-branches": "node -r dotenv/config --experimental-modules delete-stale-branches.js",
+    "test": "node -r dotenv/config --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "author": "dherenj84",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/core": "^3.5.1",
+    "@octokit/graphql": "^4.8.0",
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
